@@ -1,6 +1,5 @@
 import React from 'react';
-// import '../../App.css';
-import HeroSection from '../HeroSection';
+import '../../App.css';
 import PortalNavbar from '../PortalNavbar';
 import './Help.css';
 import HelpPage from './Help';
