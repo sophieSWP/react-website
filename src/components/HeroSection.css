@@ -6,9 +6,18 @@ video {
   z-index: -1;
 }
 
+#heroimg{
+  /* object-fit: cover; */
+  width: 97%;
+  height: 27%;
+  position: fixed;
+  z-index: -1;
+
+}
+
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-  height: 100vh;
+  height: 30vh;
   width: 100%;
   display: flex;
   flex-direction: column;

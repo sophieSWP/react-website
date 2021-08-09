@@ -5,40 +5,43 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Gain better insight into how your buildings are performing.</h1>
+      <h2>We are changing the way businesses approach facilities management. Providing you with real-time insights, on-site, that ensures compliance, reduces risk, drives efficiency and reduces costs.</h2>
+      <h2>Using the latest smart technology, we help you optimise how your facilities perform – capturing and translating data from occupancy and footfall to asset tracking and building management with a specific focus on affordability and return on investment.</h2>
+      <h2>Seeing everything through the prism of user experience, we have developed a product that is truly unique, underpinned by a customer-first corporate philosophy.</h2>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              src='images/time.png'
+              text='Save time with our real-time Cleaning Schedule'
+              label='Time'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/savings.jpg'
+              text='Check out your savings through data visualization tools'
+              label='Analysis'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/occupancy.jpg'
+              text='Keep tabs on occupancy levels'
+              label='Occupancy'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/sensor.jpg'
+              text='Use our sensors to detect heat levels'
+              label='Sensors'
               path='/products'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/save.jpg'
+              text='Lots of $$$ saved'
+              label='Money'
               path='/sign-up'
             />
           </ul>

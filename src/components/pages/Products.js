@@ -1,6 +1,14 @@
 import React from 'react';
 import '../../App.css';
+import PortalNavbar from '../PortalNavbar';
+
 
 export default function Products() {
-  return <h1 className='products'>PRODUCTS</h1>;
+  return (
+    <>
+   <PortalNavbar/>
+   <h1 className='products'>ROLL UP</h1>
+
+   </>
+  )
 }
