@@ -2,14 +2,14 @@ import React from 'react';
 import '../../App.css';
 import PortalNavbar from '../PortalNavbar';
 import './Help.css';
-import HelpPage from './Help';
+import HelpPage from '../HelpPage';
 
 
 export default function Help() {
   return (
     <>
           <PortalNavbar/>
-          {/* <HelpPage/> */}
+          <HelpPage/>
           
     {/* <div className='body'>
          <h1 className='products'>Need help?</h1>

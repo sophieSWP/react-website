@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 
@@ -32,8 +33,10 @@ const data = {
 
 const styles = {
     // bgColor: 'white',
-    titleTextColor: "blue",
-    rowTitleColor: "blue",
+    titleTextColor: "black",
+    rowTitleColor: "black",
+    bold: {fontWeight: 'bold'},
+    
     // rowContentColor: 'grey',
     // arrowColor: "red",
 };

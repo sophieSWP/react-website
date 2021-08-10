@@ -8,8 +8,8 @@ export default function Contact() {
   return (
     <>
    <PortalNavbar/>
-   <h1 className='products'>CONTACT</h1>
-   {/* <ContactPage/> */}
+   <ContactPage/>
+   
 
    </>
   )

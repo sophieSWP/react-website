@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import PortalCards from '../PortalCards';
-import HeroSection from '../HeroSection';
+import PortalHeroSection from '../PortalHeroSection';
 import Footer from '../Footer';
 import PortalNavbar from '../PortalNavbar';
 
@@ -10,7 +10,7 @@ function Portal() {
     <>
     
     <PortalNavbar/>
-      <HeroSection />
+      <PortalHeroSection />
       <PortalCards />
       <Footer />
     </>
