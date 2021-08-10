@@ -311,6 +311,18 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
+      <div className="header">
+        <h1>CONTACT US</h1>
+        <div className="second-header">
+        <p></p>
+              <div className="info">
+              <p></p>
+              <p></p>
+              <p></p>
+              </div>
+        </div>
+      
+      </div>
     </div>
   );
 };

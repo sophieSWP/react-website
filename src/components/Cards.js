@@ -16,13 +16,13 @@ function Cards() {
               src='images/time.png'
               text='Save time with our real-time Cleaning Schedule'
               label='Time'
-              path='/services'
+              // path='/services'
             />
             <CardItem
               src='images/savings.jpg'
               text='Check out your savings through data visualization tools'
               label='Analysis'
-              path='/services'
+              // path='/services'
             />
           </ul>
           <ul className='cards__items'>
@@ -30,19 +30,19 @@ function Cards() {
               src='images/occupancy.jpg'
               text='Keep tabs on occupancy levels'
               label='Occupancy'
-              path='/services'
+              // path='/services'
             />
             <CardItem
               src='images/sensor.jpg'
               text='Use our sensors to detect heat levels'
               label='Sensors'
-              path='/products'
+              // path='/products'
             />
             <CardItem
               src='images/save.jpg'
               text='Lots of $$$ saved'
               label='Money'
-              path='/sign-up'
+              // path='/sign-up'
             />
           </ul>
         </div>

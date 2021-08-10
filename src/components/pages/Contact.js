@@ -2,6 +2,8 @@ import React from 'react';
 import '../../App.css';
 import ContactPage from '../ContactPage';
 import PortalNavbar from '../PortalNavbar';
+import Footer from '../Footer';
+
 
 
 export default function Contact() {
@@ -9,6 +11,7 @@ export default function Contact() {
     <>
    <PortalNavbar/>
    <ContactPage/>
+   <Footer/>
    
 
    </>
