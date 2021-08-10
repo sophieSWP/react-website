@@ -5,7 +5,7 @@ import CardItem from './CardItem';
 function PortalCards() {
   return (
     <div className='cards'>
-      <h1>Control *BUSINESSES* Savings</h1>
+      <h1>Control your Savings</h1>
       <h2>Choose your Service:</h2>
       
       <div className='cards__container'>
